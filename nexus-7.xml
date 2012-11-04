@@ -16,7 +16,7 @@
            sync-j="4" />
 
 <!-- Gonk specific things and forks -->
-  <project path="build" name="adfad666/platform_build" remote="github" revision="jb-b2g">
+  <project path="build" name="dmdrummond/platform_build" remote="github" revision="jb-b2g">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="dalvik" name="fake-libdvm" remote="b2g" revision="master" />
